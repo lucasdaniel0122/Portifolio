@@ -1,0 +1,57 @@
+body {
+	background-color: #f0f0f0;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	color: #333;
+	text-align: center;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	color: #666;
+}
+
+a {
+	margin-right: 10px; /*define o espaço a direita de cada link*/
+	padding-right: 10px; /*adiciona um espaço dentro do link à direita*/
+}
+
+div {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+}
+
+@media (max-widht:600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+button {
+    background-color: red;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: green;
+}
