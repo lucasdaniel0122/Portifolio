@@ -27,7 +27,7 @@ Este é o meu portfólio pessoal, onde apresento sobre mim, meus projetos desenv
 git clone https://github.com/lucasdaniel0122/Portifolio.git
 
 # Acesse a pasta do projeto
-cd NOME-DA-PASTA
+cd PORTIFOLIO
 
 # Abra o arquivo index.html no navegador
 
