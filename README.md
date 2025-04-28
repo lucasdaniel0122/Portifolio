@@ -16,7 +16,7 @@ Este é o meu portfólio pessoal, onde apresento sobre mim, meus projetos desenv
 ## 🚀 Funcionalidades
 
 - Página inicial com apresentação pessoal
-- Seção de projetos, sobre e certificações realizados
+- Seção de habilidades, sobre e certificações realizados
 - Formulário de contato
 - Design responsivo (adaptável para celular/tablet)
 
