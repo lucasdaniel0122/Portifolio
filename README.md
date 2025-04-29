@@ -13,14 +13,6 @@
 
 ---
 
-## 📸 Preview 
-
-<div align="center">
-<img src="C:\Usuários\lucas\Área de Trabalho\layout_site.png" alt="Preview do Portfólio" width:"800px">
-</div>
-
----
-
 ## 🌐 Acesse o projeto
 
 🔗 [Clique aqui para acessar o Portfólio Online!](https://portifolio-gray-theta-32.vercel.app/)
