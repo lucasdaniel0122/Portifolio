@@ -1,4 +1,4 @@
-<h1 align="center">🎨 Meu Portfólio - Lucas Daniel</h1>
+<h1 align="center">🎨 Meu Portfólio - Lucas Prado</h1>
 
 <p align="center">
 <a href="https://portifolio-gray-theta-32.vercel.app/" target="__blank">
@@ -59,4 +59,4 @@ cd PORTIFOLIO
 # Abra o arquivo index.html no navegador
 ```
 
-Feito com 🫶🏻 por Lucas Daniel 🥀
+Feito com 🫶🏻 por Lucas Prado 🥀
