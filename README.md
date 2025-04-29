@@ -1,33 +1,70 @@
-# Portfólio - Lucas Prado
+<h1 align="center">🎨 Meu Portfólio - Lucas Daniel</h1>
 
-Este é o meu portfólio pessoal, onde apresento sobre mim, meus projetos desenvolvidos e minhas habilidades como desenvolvedor.
+<p align="center">
+<a href="https://portifolio-gray-theta-32.vercel.app/" target="__blank">
+ <img src="https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel">
+</a>
+<img src="https://img.shields.io/badge/Feito%20com-HTML5%20%26%20CSS3-blue?style=for-the-badge&logo=html5">
+  <img src="https://img.shields.io/badge/JavaScript-Ativo-yellow?style=for-the-badge&logo=javascript">
+</p>
 
-## 🔗 Acesse o Portfólio Online
+<p align="center">
+<strong>Bem-vindo ao meu portfólio! 🚀 Aqui você encontrará meus projetos, certificações e habilidades como desenvolvedor back-end.</strong>
 
-👉 ["Clique aqui para ver o site"] (https://portifolio-gray-theta-32.vercel.app/)
+---
 
+## 📸 Preview 
 
-## 🖥️ Tecnologias Utilizadas
+<div align="center">
+<img src="C:\Usuários\lucas\Área de Trabalho\layout_site.png" alt="Preview do Portfólio" width:"800px">
+</div>
 
-- HTML 5
+---
+
+## 🌐 Acesse o projeto
+
+🔗 [Clique aqui para acessar o Portfólio Online!](https://portifolio-gray-theta-32.vercel.app/)
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- HTML5
 - CSS
 
+---
 
-## 🚀 Funcionalidades
+## 🛠️ Funcionalidades
 
-- Página inicial com apresentação pessoal
-- Seção de habilidades, sobre e certificações realizados
-- Formulário de contato
-- Design responsivo (adaptável para celular/tablet)
+- ✅ Site responsivo
+- ✅ Seção de apresentação pessoal
+- ✅ Projetos em destaque
+- ✅ Sessão de certificações
+- ✅ Formulário de contato
 
+---
+
+📬 Contato
+
+  📧 Email: lucas.prado12@fatec.sp.gov.br
+
+  💼 LinkedIn: https://www.linkedin.com/in/lucas-do-prado-30843b33a/
+
+  🖥️ Portfólio: https://portifolio-gray-theta-32.vercel.app/
+
+  ---
+
+  
 ## 📂 Como Rodar Localmente
 
-```bash
-# Clone o repositório
+```
+# Clone este repositório
 git clone https://github.com/lucasdaniel0122/Portifolio.git
 
 # Acesse a pasta do projeto
 cd PORTIFOLIO
 
 # Abra o arquivo index.html no navegador
+```
 
+Feito com 🫶🏻 por Lucas Daniel 🥀
