@@ -64,6 +64,7 @@ header a{
 }
 
 header nav.menu-desktop a:hover{
+header nav.menu-desktop a:hover{
     color: #5c5c5c;
     transform: scale(1.05);
 }
@@ -72,6 +73,7 @@ header nav ul{
     list-style-type: none;
 }
 
+header nav.menu-desktop ul li{
 header nav.menu-desktop ul li{
     display: inline-block;
     padding: 0 40px;
@@ -408,6 +410,11 @@ footer .line-footer p a{
     h2.titulo{
         font-size: 34px;
         line-height: 30px;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
     }
 
     img{
