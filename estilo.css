@@ -327,10 +327,13 @@ footer .line-footer p a{
     color: #fff;
 }
 
-@media screen and (max-widht: 875px){
+@media screen and (max-width: 875px){
 
     /*CLASSES GERAIS*/
     .flex{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
         flex-direction: column;
     }
 
@@ -341,6 +344,11 @@ footer .line-footer p a{
     h2.titulo{
         font-size: 34px;
         line-height: 30px;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
     }
     
     /*CABEÇALHO*/
