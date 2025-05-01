@@ -80,8 +80,13 @@ header nav.menu-desktop ul li{
 /*ESTILO MENU MOBILE*/
 
 .btn-abrir-menu i{
+<<<<<<< HEAD
     color:rgb(171, 167, 243);
     font-size: 40px;
+=======
+    color: rgb(171, 167, 243);
+    font-size: 40px
+>>>>>>> 2e8b1c28e118641a917f60c2bd6dbd29ec76c897
 }
 
 .menu-mobile{
