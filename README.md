@@ -22,7 +22,7 @@
 ## 🚀 Tecnologias Utilizadas
 
 - HTML5
-- CSS
+- CSS3
 - JavaScript
 
 ---
