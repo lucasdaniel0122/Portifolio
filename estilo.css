@@ -10,6 +10,10 @@ body{
     height: 100vh;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .interface{
     max-width: 1280px;
     margin: 0 auto;
