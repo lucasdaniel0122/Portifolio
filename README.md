@@ -15,7 +15,7 @@
 
 ## 🌐 Acesse o projeto
 
-🔗 [Clique aqui para acessar o Portfólio Online!](https://portifolio-gray-theta-32.vercel.app/)
+🔗 [Clique aqui para acessar o Portfólio Online!](https://portifolio-kappa-three-57.vercel.app/)
 
 ---
 
