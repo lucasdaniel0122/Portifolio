@@ -32,7 +32,7 @@
 - ✅ Site responsivo
 - ✅ Seção de apresentação pessoal
 - ✅ Projetos em destaque
-- ✅ Sessão de certificações
+- ✅ Sessão de certificados
 - ✅ Formulário de contato
 
 ---
@@ -43,7 +43,7 @@
 
   💼 LinkedIn: https://www.linkedin.com/in/lucas-do-prado-30843b33a/
 
-  🖥️ Portfólio: https://portifolio-gray-theta-32.vercel.app/
+  🖥️ Portfólio: https://portifolio-kappa-three-57.vercel.app/
 
   ---
 
