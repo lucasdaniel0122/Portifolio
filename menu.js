@@ -10,6 +10,10 @@ menu.addEventListener('click', ()=>{
     menu.classList.remove('abrir-menu')
 })
 
+overlay.addEventListener('click', ()=>{
+    menu.classList.remove('abrir-menu')
+})
+
 //Fechar o menu e rolar suavemente ao clicar em links do menu mobile//
 
 const linksMenuMobile = menu.querySelectorAll('nav ul li a')
@@ -29,8 +33,4 @@ linksMenuMobile.forEach(link=> {
             targetElement.scrollIntoView({ behavior: 'smooth' })
         }
     })
-})
-
-overlay.addEventListener('click', ()=>{
-    menu.classList.remove('abrir-menu')
 })
