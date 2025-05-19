@@ -134,6 +134,20 @@ header nav.menu-desktop ul li{
     color: #000;
 }
 
+/*SUBMENU MOBILE - esconder inicialmente*/
+
+.menu-mobile nav ul ul{
+    display: none;
+    padding-left: 15px;
+}
+
+/*Mostrar submenu quando o item pai for hover ou foco*/
+
+.menu-mobile nav ul li:hover > ul,
+.menu-mobile nav ul li:focus-within > ul {
+    display: block;
+}
+
 .overlay-menu{
     background-color: #000000a7;
     width: 100%;
