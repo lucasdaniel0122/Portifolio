@@ -27,6 +27,7 @@ linksMenuMobile.forEach(link=> {
 
         //Obtém o destino do link (hash)//
         const href = link.getAttribute('href')
+        const targetElement = document.querySelector(href)
 
         if(targetElement) {
             //Rola suavemente até a sessão//
