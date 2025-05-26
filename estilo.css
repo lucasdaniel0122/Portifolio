@@ -239,10 +239,6 @@ section.especialidades .flex{
     margin: 20px 0;
 }
 
-#projetos-especialidades {
-  min-height: 360px;  
-}
-
 /*ESTILO SOBRE*/
 
 section.sobre{
@@ -508,4 +504,8 @@ footer .line-footer p a{
         gap: 60px;
     }
 
+}
+
+#projetos-especialidades {
+  min-height: 360px;  
 }
