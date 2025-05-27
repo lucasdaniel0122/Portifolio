@@ -58,6 +58,9 @@ git clone https://github.com/lucasdaniel0122/Portifolio.git
 cd PORTIFOLIO
 
 # Abra o arquivo index.html no navegador
+star index.html --> Windows
+xdg-open index.html --> Linux/macOS
+
 ```
 
 Feito com 🫶🏻 por Lucas Prado 🥀
