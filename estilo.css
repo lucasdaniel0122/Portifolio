@@ -209,6 +209,8 @@ section.especialidades{
 }
 
 section.especialidades .flex{
+    display: flex;
+    flex-wrap: wrap;
     gap: 60px;
 }
 
