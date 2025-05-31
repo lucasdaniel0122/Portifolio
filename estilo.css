@@ -513,6 +513,9 @@ footer .line-footer p a{
   cursor: pointer;
 }
 
+#projetos-especialidades i {
+    color: rgb(171, 167, 243);
+}
 #projetos-especialidades * {
     color: inherit;
     text-decoration: none;    
