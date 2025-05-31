@@ -1,0 +1,411 @@
+/*ESTILO GERAL PROJETOS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+    color: #fff;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 40px 2%;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(171, 167, 243);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+h2.titulo {
+    font-size: 35px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color:rgb(171, 167, 243);
+}
+
+/*ESTILO CABEÇALHO PROJETOS*/
+
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #fff;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+header nav.menu-desktop a:hover{
+    color: #5c5c5c;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.btn-contato button:hover {
+    box-shadow: 0px 0px 8px rgb(8, 0, 255);
+    transform: scale(1.05);
+}
+
+/*ESTILO MENU MOBILE PROJETOS*/
+
+.btn-abrir-menu i{
+    color: rgb(171, 167, 243);
+    font-size: 40px
+}
+
+.menu-mobile {
+    background-color: #000;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.menu-mobile.abrir-menu{
+    width: 70%;
+}
+
+.menu-mobile.abrir-menu ~ .overlay-menu{
+    display: block;
+}
+
+.menu-mobile .btn-fechar{
+    padding: 20px 5%;
+}
+
+.menu-mobile .btn-fechar i{
+    color: rgb(171, 167, 243);
+    font-size: 30px;
+}
+
+.menu-mobile nav ul {
+    text-align: right;
+
+}
+
+.menu-mobile nav ul li a {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 4%;
+    display: block;
+}
+
+.menu-mobile nav ul li a:hover {
+    background-color: rgb(171, 167, 243);
+    color: #000;
+}
+
+/*SUBMENU MOBILE - esconder inicialmente*/
+
+.menu-mobile nav ul ul{
+    display: none;
+    padding-left: 15px; /*pequeno recuo para diferenciar*/
+}
+
+/*Mostrar submenu quando o item pai for hover ou foco*/
+
+.menu-mobile nav ul li:hover > ul,
+.menu-mobile nav ul li:focus-within > ul {
+    display: block;
+}
+
+.overlay-menu{
+    background-color: #000000a7;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
+
+/*ESTILO TOPO DO SITE PROJETOS*/
+
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    font-size: 38px;
+}
+
+.topo-do-site h1 span {
+    color:rgb(171, 167, 243);
+}
+
+.topo-do-site .txt-topo-site p {
+    margin: 35px 0;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    border: 5px solid #0f1b39;
+    border-radius: 50%;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
+
+/*ESTILO ESPECIALIDADES PROJETOS*/
+
+section.especialidades {
+    padding: 40px 4%;
+
+}
+
+section.especialidades .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.especialidades .especialidades-box {
+    padding: 42px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: 0.2s;
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff57;
+}
+
+.especialidades .especialidades-box i {
+    font-size: 58px;
+    color: rgb(171, 167, 243);
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 23px;
+    margin: 20px 0;
+}
+
+/*ESTILO PROJETOS APRESENTAÇAÕ*/
+
+section.projetos {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+section.projetos .flex {
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-projetos {
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 0.8s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-projetos:hover {
+    background-position: 100% 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #000000bd;
+    opacity: 0;
+    transition: 1.2s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+/*ESTILO FOOTER*/
+
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 20px #ffffff0b;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid rgb(171, 167, 243);
+}
+
+footer .line-footer p i {
+    color: rgb(171, 167, 243);
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: #fff;
+}
+
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(171, 167, 243);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: 0.2s;
+}
+
+button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px rgb(8, 0, 255);
+    transform: scale(1.05);
+}
+
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width: 1020px) {
+    /*ESTILO RESPONSIVIDADE CLASSES GERAIS*/
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /*ESTILO RESPONSIVIDADE CABEÇALHO*/
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+
+    /*ESTILO RESPONSIVIDADE TOPO DO SITE*/
+
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+        margin-top: 25px;
+    }
+
+    .topo-do-site .img-topo-site {
+        width: 102%;
+
+    }
+
+    /*ESTILO MEUS PROJETOS*/
+
+    section.projetos {
+        padding: 80px 8%;
+    }
+
+    .img-projetos {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.projetos .flex {
+        gap: 60px;
+    }
+
+    /*RESPONSIVIDADE MEUS PROJETOS APRESENTAÇÃO*/
+
+    section.especialidades .flex {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .especialidades .especialidades-box {
+        width: 100%; /* para ocupar toda a largura no mobile */
+    }
+}
