@@ -35,3 +35,7 @@ linksMenuMobile.forEach(link=> {
         }
     })
 })
+
+document.getElementById('projetos-especialidades').addEventListener('click', function () {
+  window.location.href = 'projetos.html';
+});
