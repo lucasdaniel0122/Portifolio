@@ -181,13 +181,16 @@
          <div class="interface">
             <h2 class="título">FALA <span>COMIGO!</span></h2>
 
-            <form action="">
-               <input type="text" name="" id="" placeholder="Nome Completo:" required>
-               <input type="text" name="" id="" placeholder="E-mail:" required>
-               <input type="text" name="" id="" placeholder="Celular:">
-               <textarea name="" id="" placeholder="Deixe uma mensagem:" required></textarea>
+            <form id="form-contato">
+               <input type="text" placeholder="Nome Completo:" required>
+               <input type="email" placeholder="E-mail:" required>
+               <input type="text" placeholder="Celular:">
+               <textarea placeholder="Deixe uma mensagem:" required></textarea>
                <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
             </form>
+            <p id="mensagem-confirmacao" style="display: none; color: rgb (171, 167, 243); margin-top: 10px; font-weight: bold; font-size: 1.2rem;">
+               Pedido de contato enviado com sucesso!
+            </p>
          </div><!--interface-->
       </section><!--formulário-->
    </main>
@@ -215,5 +218,17 @@
          window.location.href = 'projetos.html'
       });
    </script>
+
+   <script>
+   document.getElementById('form-contato').addEventListener('submit', function(event) {
+      event.preventDefault(); // Impede envio real
+
+      // Exibe mensagem
+      document.getElementById('mensagem-confirmacao').style.display = 'block';
+
+     // Opcional: limpar campos
+     this.reset();
+});
+</script>
 </body>
 </html>
