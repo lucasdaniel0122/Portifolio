@@ -61,6 +61,10 @@ header a {
     transition: 0.2s;
 }
 
+header nav.menu-desktop a {
+    text-decoration: none;
+}
+
 header nav.menu-desktop a:hover{
     color: #5c5c5c;
     transform: scale(1.05);
