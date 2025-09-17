@@ -39,7 +39,7 @@
 
 📬 Contato
 
-  📧 Email: lucas.prado12@fatec.sp.gov.br
+  📧 Email: lucasdanielvp@gmail.com
 
   💼 LinkedIn: https://www.linkedin.com/in/lucas-do-prado-30843b33a/
 
