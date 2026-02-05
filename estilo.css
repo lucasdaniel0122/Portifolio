@@ -304,15 +304,23 @@ section.portfolio .flex{
     width: 360px;
     height: 460px;
     background-size: cover;
-    background-position: 100% 0%;
+    background-position: center top;
     transition: 3s;
     cursor: pointer;
     border-radius: 40px;
     position: relative;
+    overflow: hidden;
+}
+
+.img-portfolio.certificado-horizontal {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #111;
 }
 
 .img-portfolio:hover{
-    background-position: 100% 100%;
+    background-position: center bottom;
 }
 
 .overlay{
@@ -335,6 +343,17 @@ section.portfolio .flex{
 
 .overlay:hover{
     opacity: 1;
+}
+
+#certificacoes .flex {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#certificacoes .img-portfolio {
+    flex: 0 0 360px;
 }
 
 /*ESTILO FORMULÁRIO E CONTATO*/
@@ -506,6 +525,12 @@ footer .line-footer p a{
         gap: 60px;
     }
 
+}
+
+@media (max-width: 768px) {
+    .flex {
+        gap: 20px;
+    }
 }
 
 #projetos-especialidades {
